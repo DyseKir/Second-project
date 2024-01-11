@@ -1,0 +1,108 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M648.823 318.192v29.122c-4.076-0.509-8.226-0.775-12.438-0.775-4.215 0-8.366 0.266-12.438 0.775v-92.76c0-98.458-80.019-178.477-178.48-178.477-98.458 0-178.475 80.019-178.475 178.477v92.76c-4.074-0.509-8.225-0.775-12.438-0.775s-8.364 0.266-12.439 0.775v-92.76c0-112.086 91.268-203.354 203.352-203.354 112.087 0 203.356 91.268 203.356 203.354v63.638zM735.314 445.467c0-30.583-13.882-57.928-35.686-76.076h140.111v489.728c0 59.59-48.305 107.895-107.895 107.895h-572.746c-59.59 0-107.896-48.305-107.896-107.895v-489.728h140.11c-21.805 18.149-35.685 45.493-35.685 76.076 0 54.637 44.292 98.932 98.929 98.932s98.928-44.295 98.928-98.932c0-30.583-13.879-57.928-35.684-76.076h255.342c-21.804 18.149-35.683 45.493-35.683 76.076 0 54.637 44.291 98.932 98.929 98.932s98.929-44.295 98.929-98.932z"
+        ],
+        "attrs": [
+          {
+            "strokeLinejoin": "miter",
+            "strokeLinecap": "butt",
+            "strokeMiterlimit": "4",
+            "strokeWidth": 102.4
+          }
+        ],
+        "width": 922,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "shop-cart"
+        ],
+        "colorPermutations": {}
+      },
+      "attrs": [
+        {
+          "strokeLinejoin": "miter",
+          "strokeLinecap": "butt",
+          "strokeMiterlimit": "4",
+          "strokeWidth": 102.4
+        }
+      ],
+      "properties": {
+        "order": 7,
+        "id": 0,
+        "name": "shop-cart",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 5,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M586.324 534.803l-441.693 441.688c-21.302 21.304-55.839 21.304-77.138 0l-51.516-51.517c-21.266-21.262-21.307-55.729-0.091-77.047l350.048-351.693-350.048-351.695c-21.216-21.316-21.175-55.782 0.091-77.048l51.516-51.516c21.302-21.302 55.838-21.302 77.138 0l441.688 441.688c21.304 21.302 21.304 55.838 0.005 77.137z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "width": 605,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "Nav-arrow"
+        ]
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 4,
+        "id": 0,
+        "name": "Nav-arrow",
+        "prevSize": 32
+      },
+      "setIdx": 1,
+      "setId": 4,
+      "iconIdx": 0
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": false,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon",
+      "height": 32,
+      "columns": 16,
+      "margin": 16
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}

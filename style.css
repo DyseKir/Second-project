@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+a {
+  display: inline-block;
+}
+/* header */
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 0px 30px 0px;
+  background: #e8f9f226, #ffffff17;
+  backdrop-filter: blur(7.5px);
+}
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 54px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  gap: 54px;
+}
+.button {
+  width: 123px;
+  height: 48px;
+  border: 2px;
+  border-radius: 5px;
+  background-color: #fe043c;
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+}
+.button:hover {
+  background-color: greenyellow;
+}
+.logo {
+  font-family: 'Suez One', serif;
+  font-weight: 400;
+  font-size: 32px;
+  background: linear-gradient(180deg, rgba(254, 4, 60, 0.8) 0%, #df6751 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header-menu {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  gap: 54px;
+}
+.header-item {
+  margin-right: 54px;
+}
+.link {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.hero-section {
+  background-image: url(./images/BG1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 200px 0px;
+}
+.hero-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: white;
+}
+.hero-input {
+  width: 521px;
+  height: 62px;
+  border-radius: 10px;
+  background: #fffefe;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 20px 0px 20px 20px;
+  color: #75797f;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+}
+.food-search {
+  /* background-color: gray; */
+  padding-top: 70px;
+}
+.dishes {
+  background: #eae5d9;
+}
+.dishes-title {
+  padding: 135px 840px 85px 150px;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 500;
+  color: #000;
+}
+.card-container {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+.fresh-Pancakes {
+  background-image: url(./images/fresh-pancakes.jpg);
+}
+.salad {
+  background-image: url(./images/salad.jpg);
+}
+.mexican-pizza {
+  background-image: url(./images/mexican-pizza.jpg);
+}
+.fresh-Pancakes,
+.salad,
+.mexican-pizza {
+  width: 339px;
+  height: 403px;
+  border-radius: 30px;
+  top: 20px;
+}
