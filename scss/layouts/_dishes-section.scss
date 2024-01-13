@@ -9,10 +9,10 @@
 .dishes-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 45px;
+  gap: 175px;
 }
 .dishes-item {
-  flex-basis: calc((100% - 240px) / 5);
+  flex-basis: calc((100% - 350px) / 3);
 }
 .dishes-section__title {
   color: #000;
@@ -26,5 +26,8 @@
 }
 .perets-png {
   position: absolute;
-  padding-left: 1300px;
+  left: 64%;
+  transform: translate(100%, 50%);
+  width: 140px;
+  height: 148px;
 }
