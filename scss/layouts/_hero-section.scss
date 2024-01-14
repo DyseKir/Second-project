@@ -46,6 +46,7 @@
     border: none;
     background: #fffefe;
     padding-left: 20px;
+    padding-right: 155px;
     color: #75797f;
 
     font-family: 'Inter', sans-serif;
@@ -92,6 +93,7 @@
     width: 18px;
     height: 25px;
     margin: 8px 12px;
+    fill: #fff;
   }
   &__location-text-1 {
     color: #ffffff;
@@ -113,6 +115,7 @@
     width: 10px;
     height: 6px;
     margin: 8px 12px;
+    fill: #fff;
     &:hover {
       cursor: pointer;
     }
