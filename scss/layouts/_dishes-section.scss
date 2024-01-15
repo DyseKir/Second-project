@@ -1,7 +1,9 @@
 .dishes-section {
+  width: 100%;
+  height: 928px;
+  position: relative;
   &__container {
     width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,17 +20,31 @@
   font-family: 'Poppins', sans-serif;
   font-size: 48px;
   font-weight: 500;
-  padding: 136px 0px 86px 152px;
+  padding: 136px 0px 0px 152px;
 }
 .tomatoes-png {
   position: absolute;
 }
 .perets-png {
   position: absolute;
-  left: 64%;
+  top: -6%;
+  left: 60%;
+  -webkit-transform: translate(100%, 50%);
   transform: translate(100%, 50%);
-  width: 140px;
-  height: 148px;
+}
+.lemon-png {
+  position: absolute;
+  top: 82%;
+  left: 94%;
+  transform: translate(-10px, -50px);
+}
+.list-png {
+  position: absolute;
+  width: 150px;
+  height: 144px;
+  top: 82%;
+  left: -5%;
+  transform: translate(8px, 10px);
 }
 .button-slider-next {
   width: 60px;
