@@ -1,0 +1,84 @@
+.deals-section {
+  width: 100%;
+  height: 928px;
+  position: relative;
+}
+.deals-container {
+  width: 100%;
+  padding-left: 130px;
+}
+.deals-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  align-items: center;
+}
+.deals-section__title {
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+}
+.deals-section__button {
+  width: 234px;
+  height: 56px;
+  border-radius: 43px;
+  border: none;
+  background: #fe043c;
+  padding: 15px 25px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 18px;
+}
+.deals-section__wrapper {
+  margin-top: 75px;
+}
+.deals-card__wrapper p:nth-child(2) {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+}
+.deals-card__wrapper p:nth-child(3) {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+}
+.deals-card__wrapper p:nth-child(4) {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+.tomatoes-2-png {
+  position: absolute;
+  top: -14%;
+  left: 72%;
+}
+.deals-section__arrow {
+  width: 180px;
+  height: 54px;
+  gap: 18px;
+  border: none;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  color: #000;
+
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+}
+.deals-card__arrow {
+  width: 24px;
+  height: 40px;
+}
