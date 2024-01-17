@@ -1,0 +1,34 @@
+.recommendation-section {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+.recommendation-container {
+  padding: 90px 70px 0px 130px;
+}
+.recommendation-section__title {
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+}
+.recommendation-section__list {
+  display: flex;
+  gap: 90px;
+  padding-top: 46px;
+}
+.recommendation-section__button {
+  position: absolute;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.27);
+  width: 38px;
+  height: 38px;
+  border-radius: 38px;
+  top: 65%;
+  left: 94%;
+  transform: translate(16px, 10px);
+}
+.recommendation-section__arrow {
+  width: 12px;
+  height: 22px;
+}
