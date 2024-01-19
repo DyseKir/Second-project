@@ -1,0 +1,20 @@
+.review-card__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 34px;
+}
+.review-card {
+  width: 600px;
+  height: 302px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.47);
+}
+.review-card__arrow {
+  width: 24px;
+  height: 24px;
+  fill: #000;
+  position: absolute;
+  // left: 64%;
+  // transform: translate(20px, 0px);
+}

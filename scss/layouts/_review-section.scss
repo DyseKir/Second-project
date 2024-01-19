@@ -1,0 +1,32 @@
+.review-section {
+  width: 100%;
+  height: 156px;
+}
+.review-section__title {
+  padding-top: 50px;
+  color: #000;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+}
+.review-section__input {
+  width: 670px;
+  height: 48px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.88);
+  border: none;
+  color: #75797f;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  padding: 14px 496px 14px 26px;
+}
+.input-wrapper {
+  padding-top: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
