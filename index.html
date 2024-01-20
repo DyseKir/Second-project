@@ -107,11 +107,9 @@
                       src="./images/dishes-card-icon.svg"
                       alt="fresh-pancakes"
                     />
-                    <img
-                      class="dishes-card-heart-icon"
-                      src="./images/fill-heart.svg"
-                      alt=""
-                    />
+                    <svg class="icon-fill-heart">
+                      <use href="./images/sprite.svg#icon-fill-heart"></use>
+                    </svg>
                     <img
                       class="dishes-card__image"
                       src="./images/fresh-pancakes.jpg"
@@ -151,11 +149,9 @@
                       src="./images/dishes-card-icon.svg"
                       alt="fresh-pancakes"
                     />
-                    <img
-                      class="dishes-card-heart-icon"
-                      src="./images/empty-heart.svg"
-                      alt=""
-                    />
+                    <svg class="icon-fill-heart">
+                      <use href="./images/sprite.svg#icon-fill-heart"></use>
+                    </svg>
                     <img
                       class="dishes-card__image"
                       src="./images/salad.jpg"
@@ -200,11 +196,9 @@
                       src="./images/dishes-card-icon.svg"
                       alt="fresh-pancakes"
                     />
-                    <img
-                      class="dishes-card-heart-icon"
-                      src="./images/fill-heart.svg"
-                      alt=""
-                    />
+                    <svg class="icon-fill-heart">
+                      <use href="./images/sprite.svg#icon-fill-heart"></use>
+                    </svg>
                     <img
                       class="dishes-card__image"
                       src="./images/mexican-pizza.jpg"
@@ -393,11 +387,15 @@
         </div>
       </section>
       <section class="services-section">
-        <!-- <img src="./images/Line-1.svg" alt="" />
-        <img src="./images/Line-1.svg" alt="" />
-        <img src="./images/tomatoes-3.png" alt="" />
-        <img src="./images/chef-holding-vegetables-img.png" alt="" />
-        <img src="./images/chef-bg-img.svg" alt="" /> -->
+        <img class="line-img-1" src="./images/Line-1.svg" alt="" />
+        <img class="line-img-2" src="./images/Line-1.svg" alt="" />
+        <img class="tomatoes-3-img" src="./images/tomatoes-3.png" alt="" />
+        <img
+          class="chef-img"
+          src="./images/chef-holding-vegetables-img.png"
+          alt=""
+        />
+        <img class="chef-bg" src="./images/chef-bg-img.svg" alt="" />
         <div class="services-section__container-1">
           <h2 class="container-1__title">Our Services</h2>
           <p>
@@ -411,11 +409,116 @@
           </p>
         </div>
         <div class="services-section__container-2">
-          <p>Download Hungrezy App for big deals and better experience</p>
-          <img src="./images/google-stores.jpg" alt="" />
+          <p>
+            Download <span class="logo-italic">Hungrezy</span> App for big deals
+          </p>
+          <p>and better experience</p>
+          <div class="google-stores-img">
+            <img src="./images/google-stores.jpg" alt="" />
+          </div>
         </div>
       </section>
-      <section class="reviews-section"></section>
+      <section class="reviews-section">
+        <form action="">
+          <h2 class="reviews-section__title">Reviews and Ratings</h2>
+          <div class="input-wrapper">
+            <input
+              class="reviews-section__input"
+              type="text"
+              type="search"
+              id="search"
+              placeholder="add your review here...."
+            />
+          </div>
+
+          <div class="reviews-section__container-wrapper">
+            <button class="reviews-section__button-prev" type="button">
+              <svg class="reviews-section__arrow" width="" height="">
+                <use href="./images/sprite.svg#icon-Nav-arrow"></use>
+              </svg>
+            </button>
+            <div class="reviews-section__container">
+              <div class="reviews-section__container-head">
+                <img src="./images/avatar-img.png" alt="" />
+                <div class="card-container">
+                  <div class="name-container">
+                    <h3 class="account-name">sejal</h3>
+                  </div>
+                  <div class="parameters-container">
+                    <svg class="icon-pencil" width="18" height="25">
+                      <use href="./images/sprite.svg#icon-icon-pencil"></use>
+                    </svg>
+                    <p>3 reviews</p>
+                  </div>
+                </div>
+              </div>
+              <hr class="solid" />
+              <div class="scoring-container">
+                <svg class="icon-star-2-bg-green">
+                  <use href="./images/sprite.svg#icon-star-2-bg-green"></use>
+                </svg>
+                <svg class="icon-star-2-bg-green">
+                  <use href="./images/sprite.svg#icon-star-2-bg-green"></use>
+                </svg>
+                <svg class="icon-star-2-bg-green">
+                  <use href="./images/sprite.svg#icon-star-2-bg-green"></use>
+                </svg>
+                <svg class="icon-star-2-bg-green">
+                  <use href="./images/sprite.svg#icon-star-2-bg-green"></use>
+                </svg>
+                <svg class="icon-star-2-bg-green">
+                  <use href="./images/sprite.svg#icon-star-2-bg-grey"></use>
+                </svg>
+                <div class="star-container">
+                  <svg class="icon-star-2">
+                    <use href="./images/sprite.svg#icon-star-2"></use>
+                  </svg>
+                  <svg class="icon-star-2">
+                    <use href="./images/sprite.svg#icon-star-2"></use>
+                  </svg>
+                  <svg class="icon-star-2">
+                    <use href="./images/sprite.svg#icon-star-2"></use>
+                  </svg>
+                  <svg class="icon-star-2">
+                    <use href="./images/sprite.svg#icon-star-2"></use>
+                  </svg>
+                  <svg class="icon-star-2">
+                    <use href="./images/sprite.svg#icon-star-2"></use>
+                  </svg>
+                </div>
+                <p>Apr,2023</p>
+              </div>
+              <div class="review-text-container">
+                <p>Yummy and Healthy!</p>
+                <p>
+                  I bought the Blueberry Bites and I loved it so much! Aside
+                  from being delicious it's also healthy! Great Buy!
+                </p>
+              </div>
+              <hr class="solid" />
+              <div class="icons-container">
+                <div class="icons-container-icon">
+                  <svg class="icon-icon-like">
+                    <use href="./images/sprite.svg#icon-icon-like"></use>
+                  </svg>
+                  <p>Useful</p>
+                </div>
+                <div class="icons-container-icon">
+                  <svg class="icon-icon-like">
+                    <use href="./images/sprite.svg#icon-share_outline"></use>
+                  </svg>
+                  <p>Share</p>
+                </div>
+              </div>
+            </div>
+            <button class="reviews-section__button-next" type="button">
+              <svg class="reviews-section__arrow" width="" height="">
+                <use href="./images/sprite.svg#icon-Nav-arrow"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
+      </section>
     </main>
   </body>
 </html>
