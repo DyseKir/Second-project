@@ -1,8 +1,9 @@
-.review-section {
+.reviews-section {
+  position: relative;
   width: 100%;
-  height: 156px;
+  height: 556px;
 }
-.review-section__title {
+.reviews-section__title {
   padding-top: 50px;
   color: #000;
   text-align: center;
@@ -10,23 +11,199 @@
   font-size: 36px;
   font-weight: 500;
 }
-.review-section__input {
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 36px 384px 0px 384px;
+}
+.reviews-section__input {
+  padding: 14px 27px;
+  position: relative;
   width: 670px;
   height: 48px;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.88);
   border: none;
-  color: #75797f;
-
-  font-family: 'Poppins', sans-serif;
-  font-size: 13px;
-  font-weight: 300;
-  padding: 14px 496px 14px 26px;
 }
-.input-wrapper {
-  padding-top: 34px;
+
+.reviews-section__container {
+  position: relative;
+  width: 600px;
+  height: 302px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.47);
+}
+
+.reviews-section__container-wrapper {
+  padding-top: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+}
+.card-container {
+  width: 520px;
+  height: 44px;
+  gap: 8px;
+}
+.reviews-section__container-head {
+  padding: 14px 14px;
+  display: flex;
+  gap: 8px;
+}
+.parameters-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 6px;
+  padding-top: 4px;
+}
+.name-container {
+  display: flex;
+}
+.account-name {
+  color: #484556;
+
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.5px;
+}
+.parameters-container p {
+  color: #73738f;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.5px;
+}
+.icon-pencil {
+  width: 14px;
+  height: 14px;
+  fill: #73738f;
+}
+hr.solid {
+  position: absolute;
+  width: 570px;
+  border-top: 1px solid #e8e8e8;
+  right: 15px;
+}
+.icon-star-2-bg-green {
+  width: 20px;
+  height: 20px;
+}
+.scoring-container {
   position: relative;
+  display: flex;
+  gap: 2px;
+  top: 20px;
+  left: 15px;
+}
+.icon-star-2 {
+  width: 14px;
+  height: 14px;
+}
+.star-container {
+  display: flex;
+  gap: 8px;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  left: 3px;
+  top: 2px;
+}
+.scoring-container p {
+  color: #73738f;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  position: absolute;
+  right: 28px;
+}
+.review-text-container {
+  padding: 52px 15px 18px 15px;
+}
+.review-text-container p:nth-child(1) {
+  color: #32323d;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px; /* 144.444% */
+  letter-spacing: 0.5px;
+}
+.review-text-container p:nth-child(2) {
+  color: #32323d;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.5px;
+}
+.icon-icon-like {
+  width: 18px;
+  height: 18px;
+}
+.icons-container {
+  display: flex;
+  gap: 12px;
+  padding: 26px 30px;
+}
+.icons-container-icon {
+  display: flex;
+  gap: 4px;
+}
+
+.reviews-section__button-prev {
+  border: none;
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+  transform: rotate(180deg);
+  &:hover {
+    cursor: pointer;
+  }
+}
+.reviews-section__button-next {
+  border: none;
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.review-list-1 {
+  position: absolute;
+  width: 126px;
+  height: 120px;
+  top: 148px;
+  left: 115px;
+  transform: rotate(-103.788deg);
+}
+.review-list-2 {
+  position: absolute;
+  width: 126px;
+  height: 120px;
+  bottom: 98px;
+  left: 58px;
+  transform: rotate(29.775deg);
+}
+.review-list-3 {
+  position: absolute;
+  width: 126px;
+  height: 120px;
+  bottom: 112px;
+  right: 152px;
+  transform: rotate(-76.434deg);
+}
+.review-list-4 {
+  position: absolute;
+  width: 126px;
+  height: 120px;
+  top: 120px;
+  right: 40px;
+  transform: rotate(-48.801deg);
 }

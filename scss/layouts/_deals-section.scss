@@ -34,6 +34,11 @@
   font-size: 22px;
   font-weight: 500;
   margin-top: 18px;
+  &:hover {
+    background-color: #75797f;
+    transition: background-color 1s;
+    cursor: pointer;
+  }
 }
 .deals-section__wrapper {
   margin-top: 75px;
@@ -77,6 +82,11 @@
   font-family: 'Poppins', sans-serif;
   font-size: 36px;
   font-weight: 400;
+  &:hover {
+    transform: translateX(5px);
+    transition: 0.3s;
+    cursor: pointer;
+  }
 }
 .deals-card__arrow {
   width: 24px;

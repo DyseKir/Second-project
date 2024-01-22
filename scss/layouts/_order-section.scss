@@ -23,6 +23,11 @@
 .order-section__button {
   border: none;
   background-color: transparent;
+  :hover {
+    transform: translateX(5px);
+    transition: 0.3s;
+    cursor: pointer;
+  }
 }
 
 .order-section__arrow {

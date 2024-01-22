@@ -1,4 +1,83 @@
 .services-section {
-  width: 434px;
-  height: 180px;
+  position: relative;
+  width: 100%;
+  height: 1024px;
+}
+.services-section__container-1 {
+  position: absolute;
+  top: 186px;
+  left: 136px;
+  width: 418px;
+  height: 230px;
+}
+.line-img-1 {
+  position: absolute;
+  top: 152px;
+  left: 76px;
+}
+.container-1__title {
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+}
+.services-section__container-1 p {
+  padding-top: 20px;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+.services-section__container-2 {
+  position: absolute;
+  bottom: 194px;
+  right: 158px;
+
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+}
+.services-section__container-2 p:nth-child(2) {
+  display: flex;
+  justify-content: end;
+}
+.line-img-2 {
+  position: absolute;
+  bottom: 180px;
+  right: 86px;
+}
+.logo-italic {
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 700;
+}
+.google-stores-img {
+  display: flex;
+  justify-content: end;
+}
+.tomatoes-3-img {
+  position: absolute;
+  top: 344px;
+  left: 576px;
+}
+.chef-img {
+  position: absolute;
+  object-fit: cover;
+  top: 512px;
+  z-index: 1;
+  transform: translate(0px, 2px);
+}
+.chef-bg {
+  position: absolute;
+  top: 465px;
+}
+.line-2 {
+  position: absolute;
+  width: 100%;
+  height: 192px;
+  transform: rotate(5.379deg);
+  top: 16%;
 }
